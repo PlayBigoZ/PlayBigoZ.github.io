@@ -84,3 +84,17 @@ $(window).on('load', function() {
 
 })(jQuery);
 
+  // ========================================================================= //
+  //  Typed Js
+  // ========================================================================= //
+
+  var typed = $(".typed");
+
+  $(function() {
+    typed.typed({
+      strings: ["SERVER.", "COMMUNITY.", "CITY."],
+      typeSpeed: 80,
+      loop: true,
+    });
+  });
+
