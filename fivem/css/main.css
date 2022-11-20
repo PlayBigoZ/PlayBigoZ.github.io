@@ -582,6 +582,8 @@ footer {
 
   table {
 	border-spacing: 50px 15px;
+	position: relative;
+	z-index: 2;
   }
 
 
@@ -662,9 +664,6 @@ footer {
 	justify-content:space-around;
 	align-items:center;
 }
-
-
-
 
 @media only screen and (max-width:680px)
 {
@@ -838,6 +837,7 @@ footer {
 	text-align: center;
 	padding-top: 66px;
 	padding-bottom: 66px;
+	position: relative;
 }
 
 .collaborations h1 {
@@ -868,12 +868,31 @@ footer {
 	padding:0 .5rem;
 }
 
+.foto1 {
+	justify-content:right;
+	align-items:right;
+	position: absolute;
+	right: 66px;
+	bottom: 0px;
+	z-index: 1;
+}
+
+.foto2 {
+	justify-content:left;
+	align-items:left;
+	position: absolute;
+	left: 66px;
+	bottom: 0px;
+	z-index: 1;
+}
+
 .affiliate {
 	background-color:#ffffff;
 	border-top:4px solid #adffa2;
 	text-align: center;
 	padding-top: 66px;
 	padding-bottom: 66px;
+	position: relative;
 }
 
 .affiliate h1 {
@@ -892,7 +911,10 @@ footer {
 	padding:0 .5rem;
 }
 
-
+.sponsor {
+	z-index: 2;
+	position: relative;
+}
 
 
 /*colore footer*/
