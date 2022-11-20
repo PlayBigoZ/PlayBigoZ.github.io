@@ -916,6 +916,13 @@ footer {
 	position: relative;
 }
 
+.bottone1 {
+	padding-right: 25px;
+}
+
+.bottone2 {
+	padding-left: 25px;
+}
 
 /*colore footer*/
 .Footer_footer
