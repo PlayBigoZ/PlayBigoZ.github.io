@@ -555,6 +555,8 @@ footer {
   .card {
 	box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
 	border-radius: 20px;
+	height: 280px;
+	width: 250px;
   }
 
   /* Some left and right padding inside the container */
@@ -581,7 +583,7 @@ footer {
   }
 
   table {
-	border-spacing: 50px 15px;
+	border-spacing: 50px 50px;
 	position: relative;
 	z-index: 2;
   }
@@ -852,7 +854,6 @@ footer {
 .collaborations .features {
 	max-width: 1280px;
 	margin: 0 auto;
-	padding-top: 66px;
 }
 
 .collaborations .feature {
