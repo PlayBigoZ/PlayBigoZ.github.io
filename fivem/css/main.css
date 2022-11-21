@@ -559,6 +559,13 @@ footer {
 	width: 250px;
   }
 
+  .card2 {
+	box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+	border-radius: 20px;
+	height: 280px;
+	width: 400px;
+  }
+
   /* Some left and right padding inside the container */
   .container {
 	padding: 0 16px;
